@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL  &kp N1    &kp N2     &kp N3     &kp N4  &kp N5               &tog 2                                                                               &mo 2  &kp N6    &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS
- &kp GRAVE   &kp Q     &kp W      &kp E      &kp R   &kp T             &kp LBRC                                                                            &kp RBRC   &kp Y     &kp U      &kp I      &kp O     &kp P      &kp BSLH
-  &kp LALT   &kp A     &kp S      &kp D      &kp F   &kp G             &kp LBKT  &kp LC(SPACE)  &kp LG(LC(LEFT))                  &kp LG(LS(T))  &kp TAB   &kp RBKT   &kp H     &kp J      &kp K      &kp L  &kp SEMI  &kp LEFT_WIN
- &kp LSHFT   &kp Z     &kp X      &kp C      &kp V   &kp B                                         &kp LA(SPACE)                  &kp LG(LS(S))                       &kp N     &kp M  &kp COMMA    &kp DOT  &kp FSLH     &kp RSHFT
-     &none   &none  &kp PLUS  &kp EQUAL  &kp TILDE                    &kp LCTRL      &kp SPACE      &kp LC(BSPC)                    &kp LC(DEL)    &mo 1  &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER     &none         &none
+ &kp EQUAL  &kp N1    &kp N2     &kp N3     &kp N4  &kp N5               &tog 2                                                                               &mo 2  &kp N6    &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
+ &kp GRAVE   &kp Q     &kp W      &kp E      &kp R   &kp T             &kp LBRC                                                                            &kp RBRC   &kp Y     &kp U      &kp I      &kp O      &kp P      &kp BSLH
+  &kp LALT   &kp A     &kp S      &kp D      &kp F   &kp G             &kp LBKT  &kp LC(SPACE)  &kp LG(LC(LEFT))                  &kp LG(LS(T))  &kp TAB   &kp RBKT   &kp H     &kp J      &kp K      &kp L  &kp COLON  &kp LEFT_WIN
+ &kp LSHFT   &kp Z     &kp X      &kp C      &kp V   &kp B                                         &kp LA(SPACE)                  &kp LG(LS(S))                       &kp N     &kp M  &kp COMMA    &kp DOT   &kp FSLH     &kp RSHFT
+     &none   &none  &kp PLUS  &kp EQUAL  &kp TILDE                    &kp LCTRL      &kp SPACE      &kp LC(BSPC)                    &kp LC(DEL)    &mo 1  &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER      &none         &none
             >;
         };
 
