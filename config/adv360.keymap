@@ -1,11 +1,8 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
-
-
 /* THIS FILE WAS GENERATED!
  *
  * This file was generated automatically. You may or may not want to
@@ -13,60 +10,58 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
-  behaviors {
-    #include "macros.dtsi"
+    behaviors {
+        #include "macros.dtsi"
     #include "version.dtsi"
 
-    hm: homerow_mods {
-        compatible = "zmk,behavior-hold-tap";
-        label = "HOMEROW_MODS";
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <175>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
-  };
 
     keymap {
         compatible = "zmk,keymap";
 
-
         default_layer {
             bindings = <
- &kp EQUAL  &kp N1    &kp N2     &kp N3     &kp N4  &kp N5               &tog 2                                                                               &mo 2  &kp N6    &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS
- &kp GRAVE   &kp Q     &kp W      &kp E      &kp R   &kp T             &kp LBRC                                                                            &kp RBRC   &kp Y     &kp U      &kp I      &kp O     &kp P      &kp BSLH
-  &kp LALT   &kp A     &kp S      &kp D      &kp F   &kp G             &kp LBKT  &kp LC(SPACE)  &kp LG(LC(LEFT))                  &kp LG(LS(T))  &kp TAB   &kp RBKT   &kp H     &kp J      &kp K      &kp L  &kp SEMI  &kp LEFT_WIN
- &kp LSHFT   &kp Z     &kp X      &kp C      &kp V   &kp B                                         &kp LA(SPACE)                  &kp LG(LS(S))                       &kp N     &kp M  &kp COMMA    &kp DOT  &kp FSLH     &kp RSHFT
-     &none   &none  &kp PLUS  &kp EQUAL  &kp TILDE                    &kp LCTRL      &kp SPACE      &kp LC(BSPC)                    &kp LC(DEL)    &mo 1  &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER     &none         &none
+&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                                  &mo 2      &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp GRAVE  &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                                &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P     &kp BSLH
+&kp LALT   &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LC(SPACE)  &kp LG(LC(LEFT))      &kp LG(LS(T))  &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp LEFT_WIN
+&kp LSHFT  &kp Z   &kp X     &kp C      &kp V      &kp B                             &kp LA(SPACE)         &kp LG(LS(S))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
+&none      &none   &kp PLUS  &kp EQUAL  &kp TILDE          &kp LCTRL  &kp SPACE      &kp LC(BSPC)          &kp LC(DEL)    &mo 1    &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER  &none     &none
             >;
         };
 
         layer_keypad {
             bindings = <
- &trans            &trans            &trans            &trans            &trans            &trans                      &trans                                                                    &trans    &trans     &trans     &trans     &trans   &trans  &trans
- &trans            &kp F1            &kp F2            &kp F3            &kp F4            &kp F5                     &kp F11                                                                   &kp F12    &kp F6     &kp F7     &kp F8     &kp F9  &kp F10  &trans
- &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)            &kp SINGLE_QUOTE        &kp DEL  &trans                  &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp ESC  &trans
- &trans            &trans            &trans            &trans            &trans            &trans                                             &trans                  &trans                             &kp HOME  &kp PG_DN  &kp PG_UP    &kp END   &trans  &trans
- &trans            &trans            &trans            &trans            &trans                                        &trans  &kp BACKSPACE  &trans                  &trans  &trans             &trans               &trans     &trans     &trans   &trans  &trans
+&trans  &trans       &trans            &trans            &trans            &trans            &trans                                                       &trans             &trans    &trans     &trans     &trans     &trans   &trans
+&trans  &kp F1       &kp F2            &kp F3            &kp F4            &kp F5            &kp F11                                                      &kp F12            &kp F6    &kp F7     &kp F8     &kp F9     &kp F10  &trans
+&trans  &kp LG(TAB)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp SINGLE_QUOTE  &kp DEL        &trans      &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &trans
+&trans  &trans       &trans            &trans            &trans            &trans                                             &trans      &trans                             &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans   &trans
+&trans  &trans       &trans            &trans            &trans                              &trans            &kp BACKSPACE  &trans      &trans  &trans  &trans                       &trans     &trans     &trans     &trans   &trans
             >;
         };
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &trans                                                                          &trans   &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                                 &trans                  &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
-
     };
 };
