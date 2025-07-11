@@ -36,7 +36,7 @@
 
         Windows {
             bindings = <
-&kp EQUAL     &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                               &mo 2      &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp EQUAL     &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                               &tog 2     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
 &kp GRAVE     &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                             &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P     &kp BSLH
 &kp LALT      &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LC(SPACE)  &none              &none          &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp LEFT_WIN
 &kp LSHFT     &kp Z   &kp X     &kp C      &kp V      &kp B                             &none              &kp LG(LS(S))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
@@ -66,7 +66,7 @@
 
         Mac {
             bindings = <
-&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                                      &mo 2      &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                                      &tog 2     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
 &kp GRAVE  &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                                    &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P     &kp BSLH
 &kp LALT   &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LEFT_GUI  &none               &none                 &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp LA(LCTRL)
 &kp LSHFT  &kp Z   &kp X     &kp C      &kp V      &kp B                            &kp LS(LG(N5))      &kp LG(LS(NUMBER_4))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
