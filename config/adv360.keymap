@@ -36,11 +36,11 @@
 
         Windows {
             bindings = <
-&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                       &tog 2     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0     &kp MINUS
-&kp GRAVE  &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                     &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P      &kp BSLH
-&kp LALT   &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LC(SPACE)  &none      &none          &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp COLON  &kp LEFT_WIN
-&kp LSHFT  &kp Z   &kp X     &kp C      &kp V      &kp B                             &none      &kp LG(LS(S))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-&to 3      &none   &kp PLUS  &kp EQUAL  &kp TILDE          &kp LCTRL  &kp SPACE      &none      &kp LG(H)      &mo 1    &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER  &none      &none
+&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                       &tog 2     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp GRAVE  &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                     &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P     &kp BSLH
+&kp LALT   &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LC(SPACE)  &none      &none          &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp LEFT_WIN
+&kp LSHFT  &kp Z   &kp X     &kp C      &kp V      &kp B                             &none      &kp LG(LS(S))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
+&to 3      &none   &kp PLUS  &kp EQUAL  &kp TILDE          &kp LCTRL  &kp SPACE      &none      &kp LG(H)      &mo 1    &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER  &none     &none
             >;
         };
 
@@ -66,11 +66,11 @@
 
         Mac {
             bindings = <
-&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                              &tog 2     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0     &kp MINUS
-&kp GRAVE  &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                            &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P      &kp BSLH
-&kp LGUI   &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LC(SPACE)  &none      &none                 &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp COLON  &kp LA(LCTRL)
-&kp LSHFT  &kp Z   &kp X     &kp C      &kp V      &kp B                             &none      &kp LG(LS(NUMBER_4))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH   &kp LALT
-&to 0      &none   &kp PLUS  &kp EQUAL  &kp TILDE          &kp LCTRL  &kp SPACE      &none      &kp LC(LA(SPACE))     &mo 4    &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER  &none      &none
+&kp EQUAL  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5  &tog 2                                                              &tog 2     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp GRAVE  &kp Q   &kp W     &kp E      &kp R      &kp T   &kp LBRC                                                            &kp RBRC   &kp Y   &kp U     &kp I      &kp O      &kp P     &kp BSLH
+&kp LGUI   &kp A   &kp S     &kp D      &kp F      &kp G   &kp LBKT   &kp LC(SPACE)  &none      &none                 &kp TAB  &kp RBKT   &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp LA(LCTRL)
+&kp LSHFT  &kp Z   &kp X     &kp C      &kp V      &kp B                             &none      &kp LG(LS(NUMBER_4))                      &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp LALT
+&to 0      &none   &kp PLUS  &kp EQUAL  &kp TILDE          &kp LCTRL  &kp SPACE      &none      &kp LC(LA(SPACE))     &mo 4    &kp ENTER          &kp PIPE  &kp MINUS  &kp UNDER  &none     &none
             >;
         };
 
