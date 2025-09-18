@@ -78,7 +78,7 @@
             bindings = <
 &trans  &trans         &trans                &trans                &trans                &trans                &trans                                                       &trans             &trans    &trans     &trans     &trans     &trans   &trans
 &trans  &kp F1         &kp F2                &kp F3                &kp F4                &kp F5                &kp F11                                                      &kp F12            &kp F6    &kp F7     &kp F8     &kp F9     &kp F10  &trans
-&trans  &kp LG(SPACE)  &kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))  &kp LC(LA(NUMBER_4))  &kp SINGLE_QUOTE  &trans         &trans      &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &trans
+&trans  &kp LA(SPACE)  &kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))  &kp LC(LA(NUMBER_4))  &kp SINGLE_QUOTE  &trans         &trans      &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &trans
 &trans  &trans         &trans                &trans                &trans                &trans                                                 &trans      &trans                             &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans   &trans
 &trans  &trans         &trans                &trans                &trans                                      &trans            &kp BACKSPACE  &trans      &trans  &trans  &trans                       &trans     &trans     &trans     &trans   &trans
             >;
